@@ -1,0 +1,306 @@
+body {
+    background-image: white;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+}
+.mobile{
+    display: none;
+}
+.navb {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+    margin-right: 15%;
+    /* width: fit-content; */
+}
+.logod{
+    margin-left: 10%;
+}
+.nav {
+    margin: 0 1%;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 0;
+    width: 100%;
+}
+
+.two {
+    width: 40%;
+}
+
+.three {
+    width: 50%;
+}
+
+.have {
+    width: 50%;
+}
+
+.main {
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.three p {
+    border-radius: 3px;
+    padding: 2% 5%;
+    background-color: hsl(5, 85%, 63%);
+    width: fit-content;
+}
+
+.and {
+    background-color: hsl(240, 100%, 5%);
+    width: 25%;
+    height: 100%;
+    color: hsl(236, 13%, 42%);
+}
+
+.the {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+}
+.last{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3%;
+    width: 78%;
+    margin: 0 auto;
+}
+.pic{
+    height: 58%;
+    width: 100%;
+}
+.hey{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+@media screen and (max-width : 376px){
+    .main{
+display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+@media screen and (max-width : 700px){
+    .one,.the,.last{
+        flex-direction: column;
+        width: 100%;
+    }
+    .have,.two,.three,.and{
+        width: 100%;
+    }
+    .zero,.zero1{
+        width: 40%;
+    }
+    .second{
+        justify-content: space-evenly;
+    }
+    .last{
+        margin-top: 6%;
+    }
+    .logod,.navb{
+        margin-left: 0;
+    }
+    .hidden1{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+}
+
+h1 span{
+    color: hsl(35, 77%, 62%);
+}
+.and h3{
+    color: hsl(36, 100%, 99%);
+}
+.and p{
+    color: hsl(236, 13%, 42%);
+}
+.three h4{
+    color: hsl(236, 13%, 42%);
+}
+.three p{
+    color: hsl(36, 100%, 99%);
+}
+.last h1{
+    color: hsl(233, 8%, 79%);
+}
+.last p1{
+    color: hsl(236, 13%, 42%);
+}
+.last img{
+width: 100%;
+height: auto;
+}
+.content{
+    display: flex;
+}
+.second {
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; 
+    margin-bottom: 20px; 
+  }
+  
+  .zero, .zero1 {
+    flex: 1; 
+  }
+  
+  .zero img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    height: auto; /* Ensure the image takes full height of its container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+  }
+.foot2 h1{
+margin-top: 0;
+}
+
+
+.mobile{
+    margin: 2%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.hmm{
+    border: 2px;
+    color: hsl(36, 100%, 99%);
+    padding: 2% 4%;
+    background-color: hsl(5, 85%, 63%);
+    width: fit-content;
+    padding: 2% 4%;
+}
+.sub_class{
+    margin: 2%;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+.foots{
+    display: flex;
+    justify-content: space-between;
+}
+.foot1{
+    width: 50%;
+    
+}
+.foot2{
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.foot1,.foot2 h4{
+    margin-top: 4%;
+}
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+}
+
+.menu {
+    position: fixed;
+    right: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: hsl(36, 100%, 99%);
+    overflow-x: hidden;
+    transition: 0ms;
+}
+.cross{
+   right: 0px;
+}
+
+.menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 36px;
+    cursor: pointer;
+    color: white;
+}
+.ind{
+    margin-top: 13%;
+}
+.foot2 h1{
+    color: hsl(233, 8%, 79%);
+}
+p{
+    color: hsl(236, 13%, 42%);
+}
+.nav,.active-org,.active-yol,.active :hover{
+    cursor: pointer;
+}
+.active-org :hover,.nav :hover{
+color:hsl(5, 85%, 63%);
+}
+.active-yol :hover{
+    color:hsl(35, 77%, 62%);
+}
+.active :hover{
+background-color: hsl(240, 100%, 5%);
+color: hsl(36, 100%, 99%);
+}
+.hmm :hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+.active p {
+    border-radius: 3px;
+    padding: 2% 5%;
+    background-color: hsl(5, 85%, 63%);
+    width: fit-content;
+    color: hsl(36, 100%, 99%);
+}
+.firstv{
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    margin-top: 2%;
+}
